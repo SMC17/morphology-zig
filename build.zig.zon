@@ -1,0 +1,19 @@
+.{
+    .name = .morphology,
+    .version = "0.0.1",
+    .fingerprint = 0x888f72f0c6f4bd47,
+    .minimum_zig_version = "0.16.0",
+    .dependencies = .{
+        .stemmer = .{
+            .path = "../stemmer-zig",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "LICENSE",
+        "README.md",
+        "CHANGELOG.md",
+    },
+}
